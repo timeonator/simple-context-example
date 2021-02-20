@@ -1,4 +1,4 @@
-import { StrictMode, createContext, useState, useEffect } from "react";
+import { StrictMode, createContext } from "react";
 import ReactDOM from "react-dom";
 
 import App from "./App";

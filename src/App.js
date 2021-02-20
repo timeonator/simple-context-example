@@ -4,7 +4,6 @@ import { useContext } from "react";
 
 export default function App() {
   const values = useContext(UsersContext);
-  console.log(values);
 
   return (
     <div className="App">
