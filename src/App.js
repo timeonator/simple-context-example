@@ -11,7 +11,7 @@ export default function App() {
       <h3>Users</h3>
       <ul>
         {values.map((v) => (
-          <li>{v.name}</li>
+          <li key={v.id}>{v.name}</li>
         ))}
       </ul>
     </div>
