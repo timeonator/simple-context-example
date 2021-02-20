@@ -1,5 +1,6 @@
-import { StrictMode, createContext } from "react";
+import { StrictMode, createContext, useState, useEffect } from "react";
 import ReactDOM from "react-dom";
+
 import App from "./App";
 
 export const UsersContext = createContext();
